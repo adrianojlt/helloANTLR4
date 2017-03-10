@@ -3,6 +3,8 @@ package pr.adrz.antlr.json;
 import pt.adrz.antlr4.json.gen.JSONBaseVisitor;
 import pt.adrz.antlr4.json.gen.JSONParser;
 
+import java.util.List;
+
 /**
  * Created by Adrianot on 10/03/2017.
  */
@@ -38,7 +40,14 @@ public class MyJsonVisitor extends JSONBaseVisitor <String> {
 
     @Override
     public String visitObjectnotempty(JSONParser.ObjectnotemptyContext ctx) {
-        return super.visitObjectnotempty(ctx);
+        List<JSONParser.PairContext> list = ctx.pair();
+        StringBuilder result = new StringBuilder();
+        for (JSONParser.PairContext ct : list) {
+            result.append(ct.key().STRING().toString());
+        }
+
+        return result.toString();
+        //return super.visitObjectnotempty(ctx);
     }
 
     @Override
