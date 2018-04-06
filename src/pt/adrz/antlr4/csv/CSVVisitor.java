@@ -1,5 +1,5 @@
 // Generated from C:/Users/adrianot/git/antlr/src\CSV.g4 by ANTLR 4.6
-package pt.adrz.antlr4.csv.gen;
+package pt.adrz.antlr4.csv;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**

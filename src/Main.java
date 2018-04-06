@@ -4,11 +4,11 @@ import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ParseTree;
-import pr.adrz.antlr.json.MyJsonVisitor;
-import pt.adrz.antlr4.csv.gen.CSVLexer;
-import pt.adrz.antlr4.csv.gen.CSVParser;
-import pt.adrz.antlr4.json.gen.JSONLexer;
-import pt.adrz.antlr4.json.gen.JSONParser;
+import pt.adrz.antlr4.json.MyJsonVisitor;
+import pt.adrz.antlr4.csv.CSVLexer;
+import pt.adrz.antlr4.csv.CSVParser;
+import pt.adrz.antlr4.json.JSONLexer;
+import pt.adrz.antlr4.json.JSONParser;
 
 import java.io.FileInputStream;
 

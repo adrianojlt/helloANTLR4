@@ -1,7 +1,4 @@
-package pr.adrz.antlr.json;
-
-import pt.adrz.antlr4.json.gen.JSONBaseVisitor;
-import pt.adrz.antlr4.json.gen.JSONParser;
+package pt.adrz.antlr4.json;
 
 import java.util.List;
 

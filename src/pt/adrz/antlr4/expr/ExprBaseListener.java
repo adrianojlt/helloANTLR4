@@ -1,76 +1,52 @@
-// Generated from C:/Users/adrianot/git/antlr/src\CSV.g4 by ANTLR 4.6
-package pt.adrz.antlr4.csv.gen;
+// Generated from C:/Users/adrianot/git/antlr/src\Expr.g4 by ANTLR 4.6
+package pt.adrz.antlr4.expr;
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * This class provides an empty implementation of {@link CSVListener},
+ * This class provides an empty implementation of {@link ExprListener},
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
-public class CSVBaseListener implements CSVListener {
+public class ExprBaseListener implements ExprListener {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFile(CSVParser.FileContext ctx) { }
+	@Override public void enterProg(ExprParser.ProgContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFile(CSVParser.FileContext ctx) { }
+	@Override public void exitProg(ExprParser.ProgContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterHeader(CSVParser.HeaderContext ctx) { }
+	@Override public void enterStat(ExprParser.StatContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitHeader(CSVParser.HeaderContext ctx) { }
+	@Override public void exitStat(ExprParser.StatContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterLine(CSVParser.LineContext ctx) { }
+	@Override public void enterExpr(ExprParser.ExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitLine(CSVParser.LineContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterText(CSVParser.TextContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitText(CSVParser.TextContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterEmpty(CSVParser.EmptyContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitEmpty(CSVParser.EmptyContext ctx) { }
+	@Override public void exitExpr(ExprParser.ExprContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

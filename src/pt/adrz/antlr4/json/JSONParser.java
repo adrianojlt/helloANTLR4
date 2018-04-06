@@ -1,5 +1,5 @@
 // Generated from C:/Users/adrianot/git/antlr/src\JSON.g4 by ANTLR 4.6
-package pt.adrz.antlr4.json.gen;
+package pt.adrz.antlr4.json;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
